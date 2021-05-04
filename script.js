@@ -15,10 +15,11 @@ const two = new Two(params)
 two.appendTo(container)
 
 
+
 //MAKE a rectangle from documentation
 
 // offset path, offset path, width, height
-const shape = two.makeRectangle(250, 250, 100, 100);
+const shape = two.makeRectangle(250, 250, 300, 300);
 
 //change the shape
 shape.fill = "#ffff3f"
@@ -32,12 +33,13 @@ shape.rotation = Math.PI * 0.2;
 two.bind("update", function () {
   // shape.rotation = shape.rotation + 0.1
 
-  shape.rotation += 0.05
+  shape.rotation += 0.03
 })
 
 
 //play animation
 two.play()
+
 
 
 
