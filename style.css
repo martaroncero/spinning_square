@@ -1,0 +1,17 @@
+body{
+  background-color: #006466
+;
+}
+
+
+
+section{
+  width: 500px;
+  height: 500px;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+ /* it will tranlate the shape half (50%) of its size*/
+  transform: translate(-50%, -50%);
+}
